@@ -21,4 +21,5 @@ freddy.each do |attribute, value|
       value.delete_if { |ice_cream| ice_cream == "strawberry" }
     end
     contacts
+  end
 end
