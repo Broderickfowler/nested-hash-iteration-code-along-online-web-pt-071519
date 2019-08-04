@@ -20,4 +20,5 @@ freddy.each do |attribute, value|
     if attribute == :favorite_icecream_flavors
       value.delete_if { |ice_cream| ice_cream == "strawberry" }
     end
+    contacts
 end
